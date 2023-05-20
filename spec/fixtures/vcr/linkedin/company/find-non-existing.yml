@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company?acquisitions=exclude&categories=exclude&exit_data=exclude&extra=exclude&funding_data=exclude&resolve_numeric_id=false&url=https://www.linkedin.com/company/foobar/&use_cache=if-present
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:20:10 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zOq57y1vTfvapSv%2BNO2TBC48oY39ENelNqXhZ5UCnjo2%2Bk6eyyl%2FLP2gE9hDrlLzAQVTF%2BtQTCrEaL9fQAsC8O056qogxNaVeb9aXCsq%2BHHjqCPeNm69cgrMRKw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c940d69bdbd2d83-ARN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"code":404,"description":"Company profile does not exist","name":"Not
+        Found"}
+
+        '
+  recorded_at: Thu, 18 May 2023 12:20:10 GMT
+recorded_with: VCR 6.1.0

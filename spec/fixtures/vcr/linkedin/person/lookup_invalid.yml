@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/profile/resolve?company_domain=cyberdo.fi&enrich_profile=skip&first_name=Matthew
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 May 2023 13:05:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MHSFB61AbKtvsPPZQ16CBV7THg67z7RPRQyaNEi4wrQyhsE6H9HjhjuT3fLctr%2F%2Bag9IZdbn0lHMS4gI6Fp0KHornDSipG9%2FREftn9Iwc%2BsPgh6QrYMQ0nG8xW4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9c8bf4ca30fe54-HEL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url": "https://www.linkedin.com/in/matthew-shallbetter-6267402"}'
+  recorded_at: Fri, 19 May 2023 13:05:08 GMT
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/profile/resolve?company_domain=cyberdo.fi&enrich_profile=skip&first_name=Matthew&last_name=James
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 May 2023 13:06:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BgeJhFuJCIibkL9nmUOKUkSKOeF5iw5HqP%2BIzoeJEEfQJtjR2tlK%2Bp0Z%2BogZ%2F4ZVYTcoUIfVs7he%2FCZ%2Bgg06UbDNJKon4ofTPrKvvhPSineqzZemix6AJMbl%2BMY%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9c8e5bb9422d86-ARN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url": "https://www.linkedin.com/in/matthew-james-mba-baaa617"}'
+  recorded_at: Fri, 19 May 2023 13:06:17 GMT
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/profile/resolve?company_domain=cyberdo.fi&enrich_profile=skip&first_name=Nalle&last_name=Puh
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 May 2023 13:07:12 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '13'
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=o6RbfaLVjmDCCLCsvoEQuTrYwbA4N3eULDQv6LcV3pT50bsrzFHrZfI8R5OFrmSSXAZMubLCkDW4SQAHeF2vpPw%2F3XwXP2gbCA7ULkeC9uIww5vFRMADFV1CE0o%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9c8f0fc80fd95b-HEL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"url": null}'
+  recorded_at: Fri, 19 May 2023 13:07:11 GMT
+recorded_with: VCR 6.1.0

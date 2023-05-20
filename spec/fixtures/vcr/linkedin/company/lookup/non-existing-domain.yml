@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company/resolve?company_domain=nonexistingdomain.fi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:38:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '13'
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DT3TFQO74BMQp54wKuuBu7T%2FDRM9M12CqBo4ipsbb%2FMVD89qyVvcY3KlX%2BPyWvFsexMJ4j8yyh22QLJfWlSDUdGNNeVOuP%2FNw0o5JZyLW%2FyoJZ7izxu3vH%2FXEoI%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9428834f820a27-ARN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"url": null}'
+  recorded_at: Thu, 18 May 2023 12:38:44 GMT
+recorded_with: VCR 6.1.0

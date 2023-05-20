@@ -1,0 +1,159 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company?company_domain=finitec.fi&company_location&company_name&enrich_profile=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:32:58 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '124'
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '0'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e9sEu%2FW3D3nTcWCmzJkDvjVT5ZCjGgpnfY2cguJOKSa%2F6ZB%2BMEw6O8Cf2iKrkEz%2BJPDDr0govZMjUcqPQ9EX%2FhBh%2Bx%2BtMUDgETL4ws5HmsIO9PUu5bDznbjF65U%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c94203cd8182d86-ARN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"code":400,"description":"Bad request. Please ensure that the parameters
+        are of the correct format.","name":"Bad Request"}
+
+        '
+  recorded_at: Thu, 18 May 2023 12:32:58 GMT
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company?company_domain=finitec.fi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:34:10 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '124'
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '0'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TkHNABdqP%2F0JL1J%2BE%2BO0VcFKi2%2BF%2BGPKzjjf5AYm1cIa5N8g79CXNKt0RXACWSyLuU0QcNVvmnVPqsgV3OqyScw0o5IVVhe8WrbYygXId2n%2FBG0%2BL78EGlvu4p8%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9421fd0e3fd91e-HEL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"code":400,"description":"Bad request. Please ensure that the parameters
+        are of the correct format.","name":"Bad Request"}
+
+        '
+  recorded_at: Thu, 18 May 2023 12:34:10 GMT
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company/resolve?company_domain=finitec.fi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:34:51 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7%2BygpfkppL2CQ0PKKdwlGKJXStt0bEl32gqLwGujMD5tbf5NXSDDP5eiV3I5DUgrIbNjcDtDYrpq5sr8k4sCy26UDXBaJFMiu1fzuoonwdzpZfwsKvuMMvlqydg%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9422ee7c2d2d5c-ARN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url": "https://www.linkedin.com/company/finitec-oy"}'
+  recorded_at: Thu, 18 May 2023 12:34:51 GMT
+recorded_with: VCR 6.1.0

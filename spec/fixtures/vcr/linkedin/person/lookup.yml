@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/profile/resolve?company_domain=cyberdo.fi&enrich_profile=skip&first_name=Anssi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 May 2023 13:02:45 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O5E2ZW4cu1koJOaV55Z%2FcYBD4Ys%2FC1Qkg0a5PYVRt951ub0Ov57gs1wGLOo4PfKmlhuzCWkhZoQsq2w8KQlrWY7OJGDgCdwldCoN0VDvm6gibJfpykrNFzjyATA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9c89315a88fe24-HEL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url": "https://fi.linkedin.com/in/anssi-p-k%C3%A4rkk%C3%A4inen"}'
+  recorded_at: Fri, 19 May 2023 13:02:45 GMT
+recorded_with: VCR 6.1.0

@@ -1,0 +1,274 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/v2/linkedin?extra=exclude&facebook_profile_id=exclude&fallback_to_cache=on-error&github_profile_id=exclude&inferred_salary=exclude&personal_contact_number=exclude&personal_email=exclude&skills=exclude&twitter_profile_id=exclude&url=https://www.linkedin.com/in/ljuti/&use_cache=if-present
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 May 2023 13:05:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IgU9GOpm8qWIEHStRoEodSNLxS5lr1tAEnJdT%2F0yC1QKFVio6ZMFoOspEK28o5zMSQz1GNe0WqImV6kJqsJSNVcSH%2FUbtFrcr8Jh8idTuneRlDb7IuqmfREfq%2Fg%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c944f409e2b09a4-ARN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"public_identifier": "ljuti", "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ljuti/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230518%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230518T130504Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c68639f9501323de0f0b9f431305ee4b21f0bb5de7de472a595e67d1cf5500a3",
+        "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/ljuti/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230518%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230518T130504Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=017523467f2fbe71e2ea9bf04ab6f26e6f706e0cbbe1b3c9a06caab552bb4f10",
+        "first_name": "Lauri", "last_name": "Jutila", "full_name": "Lauri Jutila",
+        "follower_count": 2024, "occupation": "Chief Technology Officer at Finitec
+        Oy", "headline": "Digital Business Craftsman", "summary": "\"The entrepreneur
+        always searches for change, responds to it, and exploits it as an opportunity.\"
+        -- Peter F. Drucker\n\nThis statement made by Drucker pretty much sums up
+        my mentality and mindset, when it comes to business and creating sensible
+        and sustainable solutions for my customers, business partners and other beneficiaries.\n\nWith
+        a never-say-die attitude, I''ll eagerly tackle challenges that come my way.
+        I''m able to quickly assess the situation and adapt to the challenge. Being
+        a quick and smart learner helps, I have a natural ability to learn quickly
+        the most important bits of information and use them to solve a problem.\n\n\"Do
+        your duty and a little more and the future will take care of itself.\" --
+        Andrew Carnegie\n\n\"You can get everything in life you want if you will just
+        help enough other people get what they want.\" -- Zig Ziglar\n\n\"The major
+        value in life is not what you get. The major value in life is what you become.\"
+        -- Jim Rohn", "country": "FI", "country_full_name": "Finland", "city": "Helsinki",
+        "state": "Uusimaa", "experiences": [{"starts_at": {"day": 1, "month": 1, "year":
+        2022}, "ends_at": null, "company": "Get Leads", "company_linkedin_profile_url":
+        "https://fi.linkedin.com/company/get-leads-fi", "title": "Chief Technology
+        Officer", "description": "Get Leads sets up high-impact sales conversations
+        between your salespeople and well-identified prospects that match your Ideal
+        Customer Profile.", "location": "Helsinki, Uusimaa, Finland", "logo_url":
+        "https://s3.us-west-000.backblazeb2.com/proxycurl/company/get-leads-fi/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230518%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230518T130504Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d250f3a912bdefbc4750383c051ad3fbfff41998fe8a88b5766941d3b018b427"},
+        {"starts_at": {"day": 1, "month": 10, "year": 2020}, "ends_at": null, "company":
+        "Get Sales", "company_linkedin_profile_url": "https://fi.linkedin.com/company/get-sales-fi",
+        "title": "Digital Business Advisor", "description": "Get Sales is the Performance
+        Enhancing Drug for B2B sales teams. We elevate the performance of B2B sales
+        teams through our Sales Fundamentals programs.", "location": "Helsinki, Finland",
+        "logo_url": "https://media.licdn.com/dms/image/C4D0BAQHL8CO8eSXkug/company-logo_100_100/0/1600192848817?e=2147483647&v=beta&t=hNi9JXkCi1SCe7ELgrkpzq694KmxJjm9EESNxssVdII"},
+        {"starts_at": {"day": 1, "month": 5, "year": 2017}, "ends_at": null, "company":
+        "Finitec Oy", "company_linkedin_profile_url": "https://fi.linkedin.com/company/finitec-oy",
+        "title": "Chief Technology Officer", "description": "Building Finitec''s Software
+        Development Business vertical with excellent results.", "location": "Helsinki
+        Area, Finland", "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/finitec-oy/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230518%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230518T130504Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=82c3805de0f96b31156cc6993902ca1fb3e5a4142e5e2bce50ce693012950929"},
+        {"starts_at": {"day": 1, "month": 3, "year": 2016}, "ends_at": null, "company":
+        "Future Board ry", "company_linkedin_profile_url": "https://fi.linkedin.com/company/futureboardry",
+        "title": "Member", "description": "Future Board is a network of young professionals
+        with over a hundred members. We create and share the future\u2019s board know-how
+        and grow young professionals to the boards of organizations.\n\nI have organized
+        and spoken in Future Board''s member events about strategy and information
+        security.", "location": null, "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/futureboardry/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230518%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230518T130504Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=c9c2bd033e499a1d104758e670f7d24501d177b1cd2930e8548d8bc20e0239b0"},
+        {"starts_at": {"day": 1, "month": 8, "year": 2003}, "ends_at": null, "company":
+        "Reforge Oy", "company_linkedin_profile_url": "https://fi.linkedin.com/company/reforge-oy",
+        "title": "Pursuer of Excellence", "description": "Reforge offers consulting
+        services for very selected list of clients and acts as an incubator of new
+        business ideas.\n\nDigital Business Craftsmanship for 21st Century.", "location":
+        null, "logo_url": "https://media.licdn.com/dms/image/C4D0BAQFLy7rUtmij_w/company-logo_100_100/0/1621321126321?e=2147483647&v=beta&t=Jd6ni26bLNOQf4uUcO7ZyncLKRGZ4PZ1XQCesd6kWec"}],
+        "education": [{"starts_at": {"day": 1, "month": 1, "year": 2018}, "ends_at":
+        {"day": 1, "month": 1, "year": 2018}, "field_of_study": "Logic", "degree_name":
+        null, "school": null, "school_linkedin_profile_url": null, "description":
+        null, "logo_url": null, "grade": null, "activities_and_societies": null},
+        {"starts_at": {"day": 1, "month": 1, "year": 2012}, "ends_at": {"day": 1,
+        "month": 1, "year": 2012}, "field_of_study": "Financial Management, Finance",
+        "degree_name": null, "school": "Aalto University Executive Education Ltd",
+        "school_linkedin_profile_url": "linkedin.com/school/aalto-university-executive-education-ltd",
+        "description": null, "logo_url": null, "grade": null, "activities_and_societies":
+        null}, {"starts_at": {"day": 1, "month": 1, "year": 2008}, "ends_at": {"day":
+        1, "month": 1, "year": 2010}, "field_of_study": "Leadership, Management, Coaching",
+        "degree_name": null, "school": null, "school_linkedin_profile_url": null,
+        "description": null, "logo_url": null, "grade": null, "activities_and_societies":
+        null}, {"starts_at": {"day": 1, "month": 1, "year": 2007}, "ends_at": {"day":
+        1, "month": 1, "year": 2008}, "field_of_study": null, "degree_name": null,
+        "school": "Markkinointi - Instituutti", "school_linkedin_profile_url": "linkedin.com/school/markkinointi-instituutti",
+        "description": null, "logo_url": null, "grade": null, "activities_and_societies":
+        null}, {"starts_at": {"day": 1, "month": 1, "year": 2007}, "ends_at": {"day":
+        1, "month": 1, "year": 2007}, "field_of_study": "Project Management", "degree_name":
+        "Associates", "school": null, "school_linkedin_profile_url": null, "description":
+        null, "logo_url": null, "grade": null, "activities_and_societies": null},
+        {"starts_at": {"day": 1, "month": 1, "year": 2003}, "ends_at": {"day": 1,
+        "month": 1, "year": 2005}, "field_of_study": "Entrepreneurship", "degree_name":
+        null, "school": null, "school_linkedin_profile_url": null, "description":
+        null, "logo_url": null, "grade": null, "activities_and_societies": null}],
+        "languages": ["Finnish", "English", "Swedish", "German"], "accomplishment_organisations":
+        [{"starts_at": {"day": 1, "month": 11, "year": 2013}, "ends_at": null, "org_name":
+        "Kyt\u00e4j\u00e4 Golf Ry", "title": "Captain", "description": "Elected as
+        the captain of Kyt\u00e4j\u00e4 Golf club for 2014-2015 and 2016-2017."}],
+        "accomplishment_publications": [], "accomplishment_honors_awards": [], "accomplishment_patents":
+        [], "accomplishment_courses": [], "accomplishment_projects": [{"starts_at":
+        {"day": 1, "month": 1, "year": 2019}, "ends_at": {"day": 30, "month": 6, "year":
+        2019}, "title": "Conquering Complexity", "description": "Organized and co-hosted
+        a two-day workshop on Logical Thinking Process tools, Goal Tree and Current
+        Reality Tree. The course was conducted by H. William Dettmer, the author of
+        the Logical Thinking Process.", "url": "https://www.conqueringcomplexity.com"}],
+        "accomplishment_test_scores": [], "volunteer_work": [], "certifications":
+        [{"starts_at": {"day": 1, "month": 9, "year": 2022}, "ends_at": null, "name":
+        "Computer Vision for Industrial Inspection", "license_number": "2a7b39cdc7414c9caa9e0c330a4fdc1a",
+        "display_source": "courses.nvidia.com", "authority": "NVIDIA", "url": "https://courses.nvidia.com/certificates/2a7b39cdc7414c9caa9e0c330a4fdc1a/"},
+        {"starts_at": {"day": 1, "month": 9, "year": 2020}, "ends_at": {"day": 30,
+        "month": 9, "year": 2023}, "name": "AWS Certified DevOps Engineer - Professional
+        (DOP)", "license_number": "7FN06WJ2HMR4QZW2", "display_source": "aws.amazon.com",
+        "authority": "Amazon Web Services (AWS)", "url": "http://aws.amazon.com/verification"},
+        {"starts_at": {"day": 1, "month": 6, "year": 2020}, "ends_at": {"day": 30,
+        "month": 6, "year": 2023}, "name": "AWS Certified SysOps Administrator (SOA)",
+        "license_number": "7PM9HVYKHB141P9D", "display_source": "aws.amazon.com",
+        "authority": "Amazon Web Services (AWS)", "url": "http://aws.amazon.com/verification"},
+        {"starts_at": {"day": 1, "month": 3, "year": 2020}, "ends_at": {"day": 31,
+        "month": 3, "year": 2023}, "name": "AWS Certified Security \u2013 Specialty
+        (SCS)", "license_number": "VZT2WJ52EJE1QQCD", "display_source": "aws.amazon.com",
+        "authority": "Amazon Web Services (AWS)", "url": "http://aws.amazon.com/verification"},
+        {"starts_at": {"day": 1, "month": 10, "year": 2019}, "ends_at": {"day": 31,
+        "month": 10, "year": 2022}, "name": "AWS Certified Developer - Associate (DVA)",
+        "license_number": "4RZK6EC2E2REQ2KN", "display_source": "aws.amazon.com",
+        "authority": "Amazon Web Services (AWS)", "url": "http://aws.amazon.com/verification"},
+        {"starts_at": {"day": 1, "month": 4, "year": 2019}, "ends_at": {"day": 31,
+        "month": 10, "year": 2022}, "name": "Amazon Web Services Cloud Practitioner
+        (CLF)", "license_number": "LSFKWNN1LMRQ1L5C", "display_source": "aws.amazon.com",
+        "authority": "Amazon Web Services (AWS)", "url": "http://aws.amazon.com/verification"},
+        {"starts_at": {"day": 1, "month": 7, "year": 2020}, "ends_at": {"day": 31,
+        "month": 7, "year": 2022}, "name": "Google Cloud Certified Associate Cloud
+        Engineer", "license_number": "7l1H9x", "display_source": "www.credential.net",
+        "authority": "Google Cloud Platform Certified", "url": "https://www.credential.net/efed65c5-0dde-4799-b6f1-123308273310?key=5903fc73f95b13f7c7916946b7741ba463353f7968c9802d69fcd4cb356dbef7#gs.9yfagy"},
+        {"starts_at": {"day": 1, "month": 5, "year": 2019}, "ends_at": {"day": 31,
+        "month": 5, "year": 2022}, "name": "AWS Certified Solutions Architect - Associate
+        (SAA)", "license_number": "MWJ0N752BMFEQGCX", "display_source": "aws.amazon.com",
+        "authority": "Amazon Web Services (AWS)", "url": "http://aws.amazon.com/verification"},
+        {"starts_at": {"day": 1, "month": 10, "year": 2017}, "ends_at": {"day": 31,
+        "month": 12, "year": 2019}, "name": "Inbound Certification", "license_number":
+        null, "display_source": "hubspot-academy.s3.amazonaws.com", "authority": "HubSpot
+        Academy", "url": "https://hubspot-academy.s3.amazonaws.com/prod/certification/certificate-pdfs/5F6A013606694A03AE07B998C65557A8"},
+        {"starts_at": null, "ends_at": null, "name": "B2B Sales Examination (BMT)",
+        "license_number": null, "display_source": null, "authority": "Markkinointi-instituutti",
+        "url": null}, {"starts_at": null, "ends_at": null, "name": "General Securities
+        Examination (APV1)", "license_number": null, "display_source": null, "authority":
+        "Federation of Finnish Financial Services", "url": null}], "connections":
+        500, "people_also_viewed": [{"link": "https://www.linkedin.com/in/viktor-belenko-089165140",
+        "name": "Viktor Belenko", "summary": "Pilot at Russian Air Force", "location":
+        null}, {"link": "https://www.linkedin.com/in/elinarosvall", "name": "Elina
+        Rosvall", "summary": "Leading Consultant at Klarigo Oy", "location": null},
+        {"link": "https://www.linkedin.com/in/ramihirvela", "name": "Rami Hirvel\u00e4",
+        "summary": "Co-Founder & Sales Advisor", "location": null}, {"link": "https://www.linkedin.com/in/sara-sofia-kreivi",
+        "name": "Sara-Sofia Kreivi", "summary": "Sales Manager p\u00e5 Zeffi", "location":
+        null}, {"link": "https://www.linkedin.com/in/larswikberg", "name": "Lars Wikberg",
+        "summary": "Software Engineer", "location": null}, {"link": "https://www.linkedin.com/in/jouni-rosenl\u00f6f",
+        "name": "Jouni Rosenl\u00f6f", "summary": "DevOps, Kubernetes, Linux, IaC,
+        hybrid cloud", "location": null}, {"link": "https://www.linkedin.com/in/janne-julkunen-07060742",
+        "name": "Janne Julkunen", "summary": "Staff Engineer at Oura", "location":
+        null}, {"link": "https://www.linkedin.com/in/karri-kostet-772b8012a", "name":
+        "Karri Kostet", "summary": "Super passionate ZEF sales warrior at ZEF", "location":
+        null}, {"link": "https://www.linkedin.com/in/viktor-belenko-0a12411b1", "name":
+        "Viktor Belenko", "summary": "--", "location": null}, {"link": "https://www.linkedin.com/in/viktor-belenko-18211146",
+        "name": "Viktor Belenko", "summary": "--", "location": null}], "recommendations":
+        ["Chris Moore\n\n      \n          \n          \n\n\n\n              \n                \n        \n              \n  \n\n      \n          Lauri
+        is not your typical CTO in any shape or form. He\u2019s spent many years studying
+        strategy, decision making and logical thinking. He\u2019s a detail orientated
+        individual who can map together the product development blueprint against
+        business drivers and has an eye for finding inefficiencies to maximize business
+        outcomes.\n\nI spent just under two years working directly with Lauri at SportSetter
+        and have since setup our own venture together. Our sparring sessions tend
+        to be more focused on business ideation and less on technical deployments
+        and it\u2019s mainly Lauri who spots a business opportunity before I do.\n\nI
+        fully endorse Lauri in any future role or assignment. He\u2019s the type of
+        person who\u2019d do well at the top management table but also in hands on
+        positions. He\u2019s a true pleasure to work with.", "Vesa V\u00e4nsk\u00e4\n\n      \n          \n          \n\n\n\n              \n                \n        \n              \n  \n\n      \n          I
+        worked with Lauri for more than two years at Kisko Labs.\n\nHe has the entrepreneurial
+        spirit in his core. He doesn''t get stuck in the past and is always coming
+        up with new ideas and approaches to be applied in business.\n\nI enjoyed working
+        with him and benefited from his admirable business insight which he shares
+        with a smile. If you have a chance of working with him or meeting him, take
+        up on the opportunity."], "activities": [{"title": "Vuosi oli 2014, kun my\u00f6s
+        minun rauhallinen arkeni muuttui peruuttamattomasti. Sen lis\u00e4ksi, ett\u00e4
+        j\u00e4nnitin millainen uusi veronmaksaja masuni pohjalta\u2026", "link":
+        "https://www.linkedin.com/posts/soili-laakso-b04071159_vuosi-oli-2014-kun-my%C3%B6s-minun-rauhallinen-activity-7047606784840114178-1iEW",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Today was one of the
+        most utopistic days in my career. At Verge, we decided today that we would
+        stop recruiting for a key position in the company and\u2026", "link": "https://www.linkedin.com/posts/youngkasi_today-was-one-of-the-most-utopistic-days-activity-7046613375111348224-RN4H",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Miksi myyntisykli
+        venyy? Miksi arvomyynti ei suju? Miksi asiakkaita on vaikea tavoittaa? Koostimme
+        yleisimpi\u00e4 nykymyynnin ongelmia ja konkreettisia\u2026", "link": "https://www.linkedin.com/posts/get-sales-fi_myynti-b2b-johtaminen-activity-7047214943498027008-Mtu9",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Kun juuri ennen koronakev\u00e4tt\u00e4
+        siirryin palkkat\u00f6ist\u00e4 yritt\u00e4j\u00e4ksi, uskalsinko edes toivoa,
+        ett\u00e4 olen graafisen alan yritt\u00e4j\u00e4n\u00e4 tilanteessa, miss\u00e4\u2026",
+        "link": "https://www.linkedin.com/posts/salla-leppanen_kun-juuri-ennen-koronakev%C3%A4tt%C3%A4-siirryin-palkkat%C3%B6ist%C3%A4-activity-7046908293516042241-pHSN",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "1.4. l\u00e4htien
+        ty\u00f6nkuvani laajenee. Markkinointity\u00f6n lis\u00e4ksi saan vetovastuun
+        Perustavan Myynnin tuki -tiimist\u00e4. Tiimimme t\u00e4rkein teht\u00e4v\u00e4
+        on parantaa\u2026", "link": "https://www.linkedin.com/posts/vkarjula_markkinointi-asiakaspalvelu-tarjouslaskenta-activity-7046825061441245184-0w2M",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "When people compare
+        the cost of leasing machines from AWS to the cost of owning them, they usually
+        do just an apples to apples comparison. \"I can\u2026", "link": "https://www.linkedin.com/posts/thecodingteacher_cloudcomputing-softwareengineering-activity-7043246947054297088-vdkU",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Are you interested
+        in taking your career in cloud computing to the next level? Look no further
+        than getting an AWS certification! Here is my guide on\u2026", "link": "https://www.linkedin.com/posts/igor-soroka_aws-certification-exam-preparation-an-ultimate-activity-7041322188552966144-FR9P",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "I''m thrilled to announce
+        the release of THE 46 RULES OF GENIUS in three new versions: a low-price paperback,
+        a brand new ebook, and a lively\u2026", "link": "https://www.linkedin.com/posts/martyneumeier_im-thrilled-to-announce-the-release-of-the-activity-7036745726248292353-0juQ",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Huh! \u00c4lyt\u00f6n
+        jengi!", "link": "https://www.linkedin.com/posts/get-sales-fi_huh-%C3%A4lyt%C3%B6n-jengi-activity-7036683627627200512-3QpW",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "I got my 7th certification
+        last week. A Security Specialty exam was a challenging one compared to others.
+        The topics of encryption, unauthorized\u2026", "link": "https://www.linkedin.com/posts/igor-soroka_aws-certified-security-specialty-was-issued-activity-7033351682281381888-g9m-",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Recently, I have been
+        preparing for an exam, and it has been a challenging but gratifying experience.
+        It makes me appreciate the importance of\u2026", "link": "https://www.linkedin.com/posts/igor-soroka_aws-success-experience-activity-7031547394647334912-eBz6",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Potentiaalinen yhteisty\u00f6kumppani:\"Olisiko
+        teill\u00e4 jotain k\u00e4tt\u00e4 pidemp\u00e4\u00e4 tuosta Norenin l\u00e4hestymistavasta?
+        Kuulostaa siis tosi mielenkiintoiselta\u2026", "link": "https://www.linkedin.com/posts/mikkoleskela_potentiaalinen-yhteisty%C3%B6kumppani-olisiko-activity-7029682891487907840-IYa8",
+        "activity_status": "Liked by Lauri Jutila"}, {"title": "Super excited to start
+        a new position as Principal Engineer (IC10) in Unity Cloud organization at
+        Unity!", "link": "https://www.linkedin.com/posts/joona-rahko-82757794_super-excited-to-start-a-new-position-as-activity-7029175761815146496-8Kfd",
+        "activity_status": "Liked by Lauri Jutila"}], "similarly_named_profiles":
+        [{"name": "Lauri Jutila", "link": "https://fi.linkedin.com/in/lauri-jutila-414782a9",
+        "summary": "Product Development Engineer at CSI - Composite Solutions and
+        Innovations Ltd", "location": "Tampere"}], "articles": [{"title": "CDO \u2013
+        Huolehdi yrityksesi digikyvyst\u00e4", "link": "https://www.linkedin.com/pulse/cdo-huolehdi-yrityksesi-digikyvyst%C3%A4-lauri-jutila",
+        "published_date": {"day": 21, "month": 1, "year": 2017}, "author": "By Lauri
+        Jutila", "image_url": "https://media.licdn.com/dms/image/C5112AQFZwZzTo8fQ5g/article-cover_image-shrink_180_320/0/1520096410374?e=2147483647&v=beta&t=VK2SuM2nE1qhnJmSowVYd6trK5Zw1z4W3CR9eqZkHj8"},
+        {"title": "Paperin paino ja saksien ter\u00e4vyys", "link": "https://www.linkedin.com/pulse/paperin-paino-ja-saksien-ter%C3%A4vyys-lauri-jutila",
+        "published_date": {"day": 22, "month": 5, "year": 2017}, "author": "By Lauri
+        Jutila", "image_url": "https://media.licdn.com/dms/image/C5112AQGIYahBig_r_A/article-cover_image-shrink_180_320/0/1520083103569?e=2147483647&v=beta&t=els0I6h-jGAfVo8BSws-_j-i7ydn-XkijADC1wxBccE"},
+        {"title": "Six Flaws in Thinking that Lead Our Decision Making Astray", "link":
+        "https://www.linkedin.com/pulse/six-flaws-thinking-lead-our-decision-making-astray-lauri-jutila",
+        "published_date": {"day": 18, "month": 1, "year": 2016}, "author": "By Lauri
+        Jutila", "image_url": "https://media.licdn.com/dms/image/C5112AQEtx-mSkB2Qfw/article-cover_image-shrink_180_320/0/1520166262285?e=2147483647&v=beta&t=I0vsG7o6WmeFhAyLjgJjouLIz84J4WMr9OrUIkzXZtE"}],
+        "groups": [], "phone_numbers": [], "social_networking_services": [{"service":
+        "meetup", "canonical_url": "meetup.com/members/4813488", "internal_id": "4813488"},
+        {"service": "twitter", "canonical_url": "twitter.com/ljuti", "internal_id":
+        null}, {"service": "dribbble", "canonical_url": "dribbble.com/ljuti", "internal_id":
+        null}], "skills": [], "inferred_salary": null, "gender": null, "birth_date":
+        null, "industry": null, "extra": null, "interests": [], "personal_emails":
+        [], "personal_numbers": []}'
+  recorded_at: Thu, 18 May 2023 13:05:05 GMT
+recorded_with: VCR 6.1.0

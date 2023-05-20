@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company/resolve?company_name=This%20Company%20Does%20Not%20Exist
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:39:30 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hYvPOhM3UNntG2cx9dqPe1engS9GOSF3Ov7ug6ueWQdWaVvd709lD242ZZaI36S17HLEPqhqf0zKLBMaroXd4wkv8I7z4psFCxqpjuUeLOmglODSDFPMA0TRDGU%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9429b3cb13d943-HEL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url": "https://www.linkedin.com/company/seisa"}'
+  recorded_at: Thu, 18 May 2023 12:39:30 GMT
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company/resolve?company_name=You%20wanted%20to%20get%20a%20non-existing%20company
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:40:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Hs7fdcMWIUjuTt%2F80erhYlSvukkPHqakGZUxnlWl2GHIxrI7qsfHZO7GdH1OpCADJLXkIEDFnI8ki3ZsDgd2c79pEuCA4FZM3EembKIcK0sr5BeELhcv93UNetw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c942a76efcdfe54-HEL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"url": "https://www.linkedin.com/company/nonexistdffd"}'
+  recorded_at: Thu, 18 May 2023 12:40:17 GMT
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company/resolve?company_name=T%C3%A4t%C3%A4%20firmaa%20ei%20ole%20en%C3%A4%C3%A4%20olemassa
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 May 2023 12:40:47 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '13'
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=w1f%2BQvDNXXgz5sqV8kegN0KqFX5SOYJcCBF4MVg4BdOp2vEEQoNVdzvhK8kU1MTmmn%2BkLUcO5Y3tVebT2MaWrZkae7MptROX%2BdFi7W3vd0L9fbJiklVCIadTy%2BQ%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c942b95299798eb-ARN
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"url": null}'
+  recorded_at: Thu, 18 May 2023 12:40:47 GMT
+recorded_with: VCR 6.1.0

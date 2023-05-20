@@ -1,0 +1,200 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/company?acquisitions=exclude&categories=exclude&exit_data=exclude&extra=exclude&funding_data=exclude&resolve_numeric_id=false&url=https://www.linkedin.com/company/finitec-oy/&use_cache=if-present
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 18 May 2023 09:35:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dfXGF8yDB27h3rHPjoWtOnKw6VI0IrCnuP3X9mznMPt1HutxQdga2SeZhlGtZG%2FQkOqNXamPpkWJ%2F6FdBIEw1VAuBuPbqk8eVIZ4znRyy9fKjjDVcjcsHkgVLFg%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c931bb478863768-HEL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"linkedin_internal_id": "870046", "description": "Finitec is Finland\u2019s
+        leading Tech Talent Agency, specialized in connecting the most ambitious companies
+        with the very best developers, designers and tech experts, and transforming
+        their expertise, talent and knowledge into real business results. Professionals
+        trust us in career management and companies turn to us when committed best
+        in class talent is needed.", "website": "http://www.finitec.fi", "industry":
+        "Information Technology & Services", "company_size": [51, 200], "company_size_on_linkedin":
+        37, "hq": {"country": "FI", "city": "Helsinki", "postal_code": "FIN-00100",
+        "line_1": "T\u00f6\u00f6l\u00f6nlahdenkatu 3B", "is_hq": true, "state": null},
+        "company_type": "PRIVATELY_HELD", "founded_year": 2005, "specialities": ["IT
+        Consulting", "Talent Agency", "Software Development", "Design", "Career Management",
+        "Contract Recruitment", "Recruitment", "Cloud", "Data", "AI", "Agile", "Project
+        Management", "Product Development"], "locations": [{"country": "FI", "city":
+        "Helsinki", "postal_code": "FIN-00100", "line_1": "T\u00f6\u00f6l\u00f6nlahdenkatu
+        3B", "is_hq": true, "state": null}], "name": "Finitec Oy", "tagline": "The
+        Leading Finnish Tech Talent Agency. We match best in class tech professionals
+        with the most ambitious clients.", "universal_name_id": "finitec-oy", "profile_pic_url":
+        "https://s3.us-west-000.backblazeb2.com/proxycurl/company/finitec-oy/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230518%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230518T093507Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1cf7274e51e7af59af5f98bed4a5fa23860dcd371d1fd3fdd38b63f87419a4d3",
+        "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/finitec-oy/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230518%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230518T093507Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c06795e80cd099eeac50d809eafcf82550877492df8269b3f418d4dee5331aaa",
+        "search_id": "870046", "similar_companies": [{"name": "Project-IT Oy", "link":
+        "https://fi.linkedin.com/company/project-it-oy", "industry": "IT Services
+        and IT Consulting", "location": "Espoo, Espoo"}, {"name": "Finitec Sp. z o.o.",
+        "link": "https://pl.linkedin.com/company/finitecsolutions", "industry": "IT
+        Services and IT Consulting", "location": "Warszawa, mazowieckie"}, {"name":
+        "OP Financial Group", "link": "https://fi.linkedin.com/company/op-financial-group",
+        "industry": "Financial Services", "location": "Helsinki, Southern Finland"},
+        {"name": "Get Sales", "link": "https://fi.linkedin.com/company/get-sales-fi",
+        "industry": "Business Consulting and Services", "location": null}, {"name":
+        "CGI", "link": "https://ca.linkedin.com/company/cgi", "industry": "IT Services
+        and IT Consulting", "location": "Montreal, Quebec"}, {"name": "Experis Finland",
+        "link": "https://fi.linkedin.com/company/experis-finland", "industry": "Staffing
+        and Recruiting", "location": "Helsinki, Southern Finland"}, {"name": "Talented:
+        a Witted company", "link": "https://fi.linkedin.com/company/talented-solutions",
+        "industry": "IT Services and IT Consulting", "location": "Helsinki, Southern
+        Finland"}, {"name": "Taito Research Oy", "link": "https://fi.linkedin.com/company/taito-research",
+        "industry": "Business Consulting and Services", "location": "Helsinki, Southern
+        Finland"}, {"name": "Montel Intergalactic", "link": "https://fi.linkedin.com/company/montel-intergalactic",
+        "industry": "Software Development", "location": "Helsinki, Southern Finland"},
+        {"name": "Birn+Partners", "link": "https://dk.linkedin.com/company/birn---partners-aps",
+        "industry": "Human Resources Services", "location": "Located in 8 countries,
+        Denmark, Norway, Sweden, Finland, Germany, Italy, United Kingdom, Baltics"}],
+        "affiliated_companies": [], "updates": [{"article_link": null, "image": "https://media-exp1.licdn.com/dms/image/C4E22AQFBMs09lxtIGg/feedshare-shrink_2048_1536/0/1643347800995?e=1646870400&v=beta&t=bujYpYQJj0yOT3QrP7kUz472znGiNJnx8qPxNtiwFho",
+        "posted_on": {"day": 27, "month": 1, "year": 2022}, "text": "Poimintoja kuluneen
+        viikon uusista projekteista. Katso kaikki toimeksiannot sivuiltamme https://hubs.la/Q012-h4c0!\n\n-\nHEAD
+        OF IT\nKokenut IT-johtaja! Sytytt\u00e4v\u00e4tk\u00f6 kunnianhimoiset ilmastotavoitteet
+        sek\u00e4 strategiset IT-vastuut? Energia-alan asiakkaallamme on tarjolla
+        hieno mahdollisuus ty\u00f6skennell\u00e4 p\u00e4\u00e4st\u00f6tt\u00f6m\u00e4n
+        tulevaisuuden mahdollistamiseksi.\n\n-\nTESTAUSASIANTUNTIJA [ERP]\nHaetaan
+        asiantuntijaa johtamaan testausta mittavassa ERP k\u00e4ytt\u00f6nottoprojektissa.\n\n-\nPRODUCT
+        OWNER [CRM]\nKokeneelle finanssialan ammattilaiselle tarjolla kiinnostava
+        ja vastuullinen Product Ownerin rooli!\n\n-\nINTEGRATION DEVELOPER [.NET /
+        C#]\nWe are calling out for a specialist to be a part of our client''s system
+        integration team!\n\n#freelance #development #erp #crm #integration", "total_likes":
+        1}, {"article_link": null, "image": "https://media-exp1.licdn.com/dms/image/C4E22AQEgUUSmgM0pSQ/feedshare-shrink_2048_1536/0/1642743001666?e=1646870400&v=beta&t=YqhjfIDuE0b-nCEXMi0fUV25Q0FZHv8huu8iGKwX6xg",
+        "posted_on": {"day": 19, "month": 1, "year": 2022}, "text": "Sopisiko jokin
+        oheisista projekteista seuraavaksi toimeksiannoksesi?\n\n-\nFULL STACK DEVELOPER\nKokeneelle
+        kehitt\u00e4j\u00e4lle tarjolla pitk\u00e4 toimeksianto henkil\u00f6st\u00f6alan
+        asiakkaamme palveluj\u00e4rjestelm\u00e4n jatkokehityksen parissa!\n\n-\nSQL
+        API -KEHITT\u00c4J\u00c4\nAsiakkaamme hakee tiimins\u00e4 SQL API- kehitt\u00e4j\u00e4\u00e4
+        j\u00e4rjestelmien rajapintojen rakentamiseen.\n\n-\nDEVELOPER\nOnko ETL,
+        AWS, tietomallinnus ja tietokantasuunnittelu ominta alaasi? Haussa nyt useampi
+        kehitt\u00e4j\u00e4 tiimiin!\n\n-\nDEVOPS ENGINEER / SCRUM MASTER\nHaussa
+        DevOps-osaaja finanssialan asiakkaamme datatiimiin!\n\n\nL\u00f6yd\u00e4t
+        kaikki avoimet toimeksiannot sivuiltamme: https://hubs.la/Q012xrbH0\n\n#freelancer
+        #development #sql #devops #fullstack #scrum", "total_likes": 1}, {"article_link":
+        null, "image": "https://media-exp1.licdn.com/dms/image/C4E22AQHhYCVj04JvVg/feedshare-shrink_2048_1536/0/1642138201472?e=1646870400&v=beta&t=akft8LdYvEIAw0aXceOrRfFSBi0xEbl0zjHmqf4eLhY",
+        "posted_on": {"day": 12, "month": 1, "year": 2022}, "text": "Uusi viikko,
+        uudet projektit! Alla muutama nosto t\u00e4ll\u00e4 viikolla julkaistuista
+        toimeksiannoista. Hyv\u00e4\u00e4 viikonloppua!\n\n-\nPRODUCT OWNER\nProduct
+        ownerille tarjolla osa-aikainen toimeksianto asiakasportaalin kehitysprojektissa.\n\n-\nPROJEKTIP\u00c4\u00c4LLIKK\u00d6
+        \nTule vet\u00e4m\u00e4\u00e4n asiakkaamme asiakkuusdatan transitioprojektia!\n\n-\nBACKEND
+        DEVELOPER [Go, AD]\nKahdelle kokeneelle kehitt\u00e4j\u00e4lle tarjolla vuoden
+        pituinen projekti asiakkaamme tuotekehitystiimiss\u00e4!\n\n-\nKOKONAISARKKITEHTI\nPitk\u00e4aikainen
+        projekti osaavalle arkkitehdille, jolla kyky yhdist\u00e4\u00e4 liiketoimintaa
+        ja sit\u00e4 tukevia tietoj\u00e4rjestelmi\u00e4.\n\n\nhttps://hubs.ly/Q012658f0\n\n#freelance
+        #development #backend #projectmanagement", "total_likes": 3}, {"article_link":
+        null, "image": "https://media-exp1.licdn.com/dms/image/C5622AQEVE-Irj0Yi8Q/feedshare-shrink_2048_1536/0/1640010044847?e=1646870400&v=beta&t=VwX4YQJgQpFrWiZToSWalVI-ZQvTfTvgXrhQuM36rqU",
+        "posted_on": {"day": 2, "month": 1, "year": 2022}, "text": "We want to thank
+        you all for the year 2021. See you in 2022!\nHappy Holidays!", "total_likes":
+        7}, {"article_link": null, "image": "https://media-exp1.licdn.com/dms/image/C4D22AQF1RLR-NOCu0w/feedshare-shrink_2048_1536/0/1639719001336?e=1646870400&v=beta&t=mOeqLlW7KOb1bsFt-PfC-uUttC4E6K29wRby3mGjg_g",
+        "posted_on": {"day": 2, "month": 12, "year": 2021}, "text": "Here''s a selection
+        of our latest projects from this week. Have a great weekend!\n\n-\nANDROID
+        DEVELOPER\nHelp our client develop a group communication solution for users
+        worldwide.\n\n-\nCHANGE MANAGER\nExtensive transformation project in an international
+        environment!\n\n-\nTEKNINEN PROJEKTIP\u00c4\u00c4LLIKK\u00d6\nHaemme teknist\u00e4
+        projektip\u00e4\u00e4llikk\u00f6\u00e4 vastaamaan isosta tietokantoihin liittyv\u00e4st\u00e4
+        kokonaisuudesta.\n\n-\nSQL / POWER BI -KEHITT\u00c4J\u00c4\nTule jatkokehitt\u00e4m\u00e4\u00e4n
+        mets\u00e4nhoitoalan asiakkaamme raportointia ja analytiikkaa!\n\nhttps://hubs.la/Q010VDvg0\n\n#freelancer
+        #development #sql #projectmanagement #sap", "total_likes": 0}, {"article_link":
+        null, "image": "https://media-exp1.licdn.com/dms/image/C4D22AQF-EYQra4yCjg/feedshare-shrink_2048_1536/0/1639114201307?e=1646870400&v=beta&t=ETUSlq_lPVjr3d1XClblNHEg3Z7iq2t8GxY9Fx8iAZE",
+        "posted_on": {"day": 2, "month": 12, "year": 2021}, "text": "Alla poimintoja
+        viikon uusista toimeksiannoista. Mik\u00e4li etsit uutta projektia heti alkuvuodelle,
+        niin kurkkaa n\u00e4m\u00e4! \n\n-\nJAVA-KEHITT\u00c4J\u00c4\nL\u00e4hde toteuttamaan
+        uutta yhteiskunnan hyvinvointia edist\u00e4v\u00e4\u00e4 verkkopalvelua!\n\n-\nTIETOKANTAOSAAJA
+        [Laskenta & prosessointi]\nTule mukaan j\u00e4rjestelm\u00e4n uudistushankkeeseen
+        kehitt\u00e4m\u00e4\u00e4n laskentaprosesseja datan n\u00e4k\u00f6kulmasta.\n\n-\nSALESFORCE-KEHITT\u00c4J\u00c4
+        [Vlocity]\nPitk\u00e4aikainen projekti Salesforce-kehitt\u00e4j\u00e4lle telecom-alalla!
+        \n\n-\nARKKITEHTI/KONSULTTI\nTarjolla teht\u00e4v\u00e4 ymp\u00e4rist\u00f6ss\u00e4,
+        jossa toiminnallisuuden rinnalla arvostetaan vahvaa visuaalista ilmett\u00e4.
+        Bonuksena erityisen luovaa porukkaa ty\u00f6kavereina.\n\nhttps://hubs.la/Q010yb_j0\n\n#freelancer
+        #java #database #salesforce", "total_likes": 2}, {"article_link": null, "image":
+        "https://media-exp1.licdn.com/dms/image/C5622AQFzJnvo4pslbw/feedshare-shrink_2048_1536/0/1638509401305?e=1646870400&v=beta&t=EAt9rVfrQJsqOWuXRXHCxqtJh44N-9U_xVBvNnjJJTY",
+        "posted_on": {"day": 2, "month": 12, "year": 2021}, "text": "It''s time for
+        a weekly recap: 13 landed projects in less than 4 days! Maybe you''ll find
+        something interesting?\n\n-\nBACKEND DEVELOPER [Node.js, TS, AWS]\nJoin a
+        team of friendly developers by bringing its IAM development to a new level!\n\n-\nDATA
+        MIGRATION LEAD\nA long and challenging assignment for a Data Migration Lead
+        in a large ERP project.\n\n-\nPROJECT MANAGER\nLooking for a Security Project
+        Manager for an ISO27001 implementation project!\n\n-\nSOFTWARE ARCHITECT\nA
+        responsible role for an experienced architect in our client''s software architecture
+        team!\n\n\nhttps://hubs.la/Q0107Hs20\n\n#freelancer #development #projectmanagement
+        #data #backend #nodejs", "total_likes": 2}, {"article_link": null, "image":
+        "https://media-exp1.licdn.com/dms/image/C4D22AQEU5Orm_s_ZNw/feedshare-shrink_2048_1536/0/1637904601171?e=1646870400&v=beta&t=Cd-_KB62zs0wJzE7ltklRrLvKD249nb5E9HLd2hV-TE",
+        "posted_on": {"day": 2, "month": 12, "year": 2021}, "text": "New week, new
+        projects! Here''s a selection of latest freelance opportunities. Have a happy
+        weekend!\n\n-\nSYSTEM ARCHITECT\nA versatile role for a System Architect in
+        the field of mobile platform and application architecture. \n\n-\nPROJECT
+        MANAGER\nExperienced in leading projects in data/MDM area? Our client in the
+        forest industry is looking for a Project Manager for a long assignment.\n\n-\nFULLSTACK
+        DEVELOPER [React, AWS Serverless]\nIndependent role for an experienced developer
+        in a small agile team!\n\n-\nDATA TRANSITION MANAGER\nWe are calling our for
+        a Data Transition Manager for a large ERP renewal project! \n\nhttps://hubs.la/H0_QX3q0\n\n#freelance
+        #development #fullstack #react #data", "total_likes": 4}, {"article_link":
+        null, "image": "https://media-exp1.licdn.com/dms/image/C4D22AQFmsPo4J99qww/feedshare-shrink_2048_1536/0/1637299801642?e=1646870400&v=beta&t=YDkdzK-nmsUTPyLwK9D88e6X41XGETfeca5mZkh5LC0",
+        "posted_on": {"day": 2, "month": 11, "year": 2021}, "text": "11 new projects
+        landed this week! Let us know if something matches your interest.\n\n-\nORACLE
+        HFM CONSULTANT\nWe are calling out for an Oracle HFM Consultant for a long
+        term project in the financial consolidation and reporting team!\n\n-\nDATABASE
+        SPECIALIST\nA fast-growing Finnish process industry company has a leading
+        role for an experienced Database Specialist.\n\n-\nCLOUD DEVELOPER\nJoin a
+        team of developers, building next generation products for the medical field.\n\n-\nPROJECT
+        MANAGER\nLooking for a Tax Project Manager for a long and challenging assignment
+        in the manufacturing industry.\n\nhttps://hubs.la/H0_smWV0\n\n#freelance #development
+        #cloud #oracle #projectmanagement", "total_likes": 4}, {"article_link": null,
+        "image": "https://media-exp1.licdn.com/dms/image/C4D22AQG7umD4uSiXuw/feedshare-shrink_2048_1536/0/1636695000982?e=1646870400&v=beta&t=dITN3vdYs6JMVKtcvI8o1QPUaZuRHEyHFP35aaAyDJw",
+        "posted_on": {"day": 2, "month": 11, "year": 2021}, "text": "Freelancer, sopisiko
+        jokin oheisista projekteista seuraavaksi toimeksiannoksesi?\n\n-\nDATA SCIENTIST\nNyt
+        rakennetaan seuraavan sukupolven (AWS/no code) suosittelulogiikkaratkaisua
+        kuluttajaverkkokauppaan. Oletko oikea tekij\u00e4 vastaamaan haasteeseen?\n\n-\nJAVA-KEHITT\u00c4J\u00c4\nKokeneelle
+        Java-kehitt\u00e4j\u00e4lle pitk\u00e4aikainen toimeksianto digitaalisen identiteetin
+        hankkeessa.\n\n-\nFULL STACK-KEHITT\u00c4J\u00c4 [React]\nPitk\u00e4hk\u00f6
+        k\u00e4ytt\u00f6liittym\u00e4n kehitysprojekti full stack-kehitt\u00e4j\u00e4lle!\n\n-\nAGILE
+        MASTER\nLooking for a Scrum Master to lead a software process modernization
+        initative for a process industry company.\n\nhttps://hubs.la/H0-_VY90\n\n#freelancer
+        #development #fullstack #java #react #agile", "total_likes": 7}], "follower_count":
+        1870, "social_networking_services": [{"service": "twitter", "canonical_url":
+        "twitter.com/finitecoy", "internal_id": null}], "acquisitions": null, "exit_data":
+        null, "extra": null, "funding_data": null, "categories": null}'
+  recorded_at: Thu, 18 May 2023 09:35:07 GMT
+recorded_with: VCR 6.1.0

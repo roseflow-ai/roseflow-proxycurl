@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/linkedin/job?url=https://www.linkedin.com/jobs/view/3599750093
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 May 2023 19:18:11 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LF2sQf85RYWcYK2nJxqwsNWH1E0f3Q9L4V2W0gmpfXCvHbw4kaTxEXpsZLEl0mBBOF6dW%2BdTvNZqIW6jTBs92945JljlVhkTb%2BhyqLf%2Bj6ADpzgzwnVeSHJ3QPs%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9eaef8b947bfad-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"linkedin_internal_id": "3599750093", "job_description": "**We are
+        constantly looking for an Azure ace to join us at Polar. Could you be the
+        one for us?**\n  \n\nPolar Squad in a nutshell: We are the best DevOps company
+        \u2013 according to us. We help our clients\u2019 developers be happy by easing
+        their job with DevOps practices, automation, and fully functional infrastructure
+        solutions. From day one in 2017, our ambition has been to build a company
+        for the best DevOps experts. We are a people-driven organization and our people
+        always come first, no exceptions. The open work culture encourages co-development
+        and has no mercy for micromanagement. No messing around \u2013 just good people,
+        engaging projects, and learning together. \n  \n\nWhen you step into the office,
+        you''ll be the designated expert on the client project, owning your role like
+        a boss. And if you''re feeling ambitious, you can also jump in on internal
+        work that has the potential to impact the whole company and take your career
+        to the next level. You''ll be flexing your skills, adding value to the team,
+        and making a name for yourself as a true trailblazer.\nLast but definitely
+        not the least, we love to have fun. We like to make jokes in our company video
+        materials, put out quirky, humorous stuff that we enjoy, and do a lot of stuff
+        together, from rock climbing to board games to cooking to book clubs. \n  \n\n**Your
+        skills and attributes of success**\n  * You are an expert on Azure cloud.\n  *
+        Know how to build infrastructure with code (IaC) with tools like Terraform.\n  *
+        You are familiar with containers and Kubernetes (AKS) or other modern PaaS
+        services.\n  * Building deployment pipelines with modern CI/CD services.\n  *
+        Setting up modern monitoring on Grafana or similar.\n  * Familiar with open
+        source tools and scripting or coding.\n  * Fluent communication skills in
+        English.\n  * You are technology agnostic and open minded for the future tech!\n\n\n  \n\n**We\u2019d
+        consider any of these as a big plus:**\n  * Experience on multiple cloud providers.\n  *
+        Past experience on consulting (but not necessary).\n  * You have a view on
+        what is DevOps.\n\n\n  \n\n**What do we offer in return?**\n  * A community
+        of highly skilled people.\n  * Personal development - We want to be the best
+        DevOps company. This means we want to have the best employees. We encourage
+        everyone to participate in trainings, meetups, seminars etc. and certify themselves.\n  *
+        Flexible working hours and the freedom to choose your tools (laptop and smartphone).\n  *
+        Opportunity for either come and work in the Helsinki or Tampere office or
+        work remotely/hybrid.\n  * Opportunity to visit and work from our abroad locations:
+        Malaga or Berlin.\n  * Other benefits, such as lunch benefit, sport and culture
+        benefit, commuting benefit and extensive occupational healthcare.\n  * Extra
+        benefits: Employee stock ownership plan, dental care, monthly massage, possibility
+        for a nanny for sick kids, office breakfasts, company trips, a lot of swag,
+        great customers and projects, the best colleagues and a relaxed environment.\n\n\n  \n\nAt
+        our company, we prioritize finding the right person over checking all the
+        boxes on a list. While qualifications and experience are certainly valuable,
+        we believe that a strong skill set, aligned values, and a deep passion for
+        making an impact are the key ingredients for success. We''re looking for a
+        talented individual who''s excited to contribute their unique strengths to
+        our team and help drive us forward. So if you''re ready to take on a meaningful
+        role and work alongside a group of passionate and driven individuals, we want
+        to hear from you.\n", "apply_url": null, "title": "Azure Expert", "location":
+        {"country": "Finland", "region": "Uusimaa", "city": "Helsinki", "postal_code":
+        null, "latitude": 60.169807, "longitude": 24.938128, "street": null}, "company":
+        {"name": "Polar Squad", "url": "https://fi.linkedin.com/company/polarsquad",
+        "logo": "https://media.licdn.com/dms/image/C4D0BAQFHuXkeNUMmVQ/company-logo_100_100/0/1626219818462?e=2147483647&amp;v=beta&amp;t=Qhr4TRxK03h95Bn9d6zFo28VLDemxIAk1sU7IxJrEbI"},
+        "seniority_level": "Mid-Senior level", "industry": ["IT Services and IT Consulting"],
+        "employment_type": "Full-time", "job_functions": ["Information Technology"],
+        "total_applicants": 28}'
+  recorded_at: Fri, 19 May 2023 19:18:11 GMT
+recorded_with: VCR 6.1.0

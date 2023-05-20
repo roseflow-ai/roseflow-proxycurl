@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nubela.co/proxycurl/api/v2/linkedin/company/job?experience_level=anything&flexibility=anything&geo_id=92000000&job_type=anything&keyword=ruby&when=anytime
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Authorization:
+      - Bearer <API_KEY>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 May 2023 19:42:20 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Proxycurl-Credit-Cost:
+      - '2'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uRdU6UuzQlIufu%2FLWyehztqjcaiPi31N576WbuFhmaH%2Fu0qn922qDjIaUwsl5j%2BgM4lxlg0rs0P28vO6LFL4%2BLi61dJDOfp3jdCydOEAFWaPxcNwAFjjZevyuFw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7c9ed284e850504e-WAW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"job": [{"company": "Terralogic", "company_url": "https://www.linkedin.com/company/terralogic",
+        "job_title": "ROR Developer", "job_url": "https://www.linkedin.com/jobs/view/ror-developer-at-terralogic-3591260374",
+        "list_date": "2023-04-03", "location": "Greater Chennai Area"}, {"company":
+        "Superstars", "company_url": "https://www.linkedin.com/company/superstars",
+        "job_title": "Ruby Developer - UK based, \u00a380-85k basic + bonus + stock
+        options", "job_url": "https://www.linkedin.com/jobs/view/ruby-developer-uk-based-%C2%A380-85k-basic-%2B-bonus-%2B-stock-options-at-superstars-3611311349",
+        "list_date": "2023-05-18", "location": "England, United Kingdom"}, {"company":
+        "Xprolabs", "company_url": "https://www.linkedin.com/company/xprolabs", "job_title":
+        "Ruby on Rails Developer(Fresh Graduates)", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-fresh-graduates-at-xprolabs-3608398852",
+        "list_date": "2023-05-18", "location": "Lahore, Punjab, Pakistan"}, {"company":
+        "Zortech Solutions", "company_url": "https://www.linkedin.com/company/zortech",
+        "job_title": "Ruby On Rails Developer-US", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-us-at-zortech-solutions-3543340806",
+        "list_date": "2023-03-28", "location": "Jersey City, NJ"}, {"company": "NJC
+        Labs", "company_url": "https://www.linkedin.com/company/njclabs", "job_title":
+        "Ruby on Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-at-njc-labs-3609641165",
+        "list_date": "2023-05-19", "location": "Texas, United States"}, {"company":
+        "Netenders", "company_url": "https://www.linkedin.com/company/netenders",
+        "job_title": "Ruby on Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-at-netenders-3609675364",
+        "list_date": "2023-05-19", "location": "Barcelona, Catalonia, Spain"}, {"company":
+        "Skillhouse Staffing Solutions K.K.", "company_url": "https://www.linkedin.com/company/skillhouse-staffing-solutions-k.k.",
+        "job_title": "\u3010Urgent Hiring!\u3011Several Opportunities for Back-end
+        Engineers", "job_url": "https://www.linkedin.com/jobs/view/%E3%80%90urgent-hiring%21%E3%80%91several-opportunities-for-back-end-engineers-at-%E3%82%B9%E3%82%AD%E3%83%AB%E3%83%8F%E3%82%A6%E3%82%B9%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-3609670155",
+        "list_date": "2023-05-19", "location": "Tokyo, Japan"}, {"company": "FRG Technology
+        Consulting", "company_url": "https://www.linkedin.com/company/frg-technology-consulting",
+        "job_title": "Ruby on Rails Developer - Food Tech - Gelderland", "job_url":
+        "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-food-tech-gelderland-at-frg-technology-consulting-3606098720",
+        "list_date": "2023-05-16", "location": "Gelderland, Netherlands"}, {"company":
+        "Venchr", "company_url": "https://www.linkedin.com/company/venchrpartners",
+        "job_title": "Ruby on Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-at-venchr-3604082284",
+        "list_date": "2023-05-16", "location": "London, England, United Kingdom"},
+        {"company": "VRK IT Vision Inc.", "company_url": "https://www.linkedin.com/company/vrkitvisioninc",
+        "job_title": "JPC - 133 ruby developer", "job_url": "https://www.linkedin.com/jobs/view/jpc-133-ruby-developer-at-vrk-it-vision-inc-3559671768",
+        "list_date": "2023-04-10", "location": "Cincinnati, OH"}, {"company": "SBG
+        Associates", "company_url": "https://www.linkedin.com/company/sbg-associates",
+        "job_title": "Ruby on Rails / Fullstack  Developer", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-fullstack-developer-at-sbg-associates-3608877232",
+        "list_date": "2023-05-18", "location": "Berlin, Germany"}, {"company": "Grafton
+        Recruitment", "company_url": "https://www.linkedin.com/company/grafton-recruitment",
+        "job_title": "JUNIOR SOFTWARE DEVELOPER | CENTRUM \u010cB", "job_url": "https://www.linkedin.com/jobs/view/junior-software-developer-centrum-%C4%8Db-at-grafton-recruitment-3608917589",
+        "list_date": "2023-05-16", "location": "Budejovice, South Bohemia, Czechia"},
+        {"company": "NITYA Software Solutions Inc", "company_url": "https://www.linkedin.com/company/nitya-software-solutions-inc",
+        "job_title": "Ruby On Rails", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-at-nitya-software-solutions-inc-3608317983",
+        "list_date": "2023-05-18", "location": "New Jersey, United States"}, {"company":
+        "Skillhouse Staffing Solutions K.K.", "company_url": "https://www.linkedin.com/company/skillhouse-staffing-solutions-k.k.",
+        "job_title": "\u3010Urgent \u3011Several Opportunities for Full-stack Engineers",
+        "job_url": "https://www.linkedin.com/jobs/view/%E3%80%90urgent-%E3%80%91several-opportunities-for-full-stack-engineers-at-%E3%82%B9%E3%82%AD%E3%83%AB%E3%83%8F%E3%82%A6%E3%82%B9%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-3609666789",
+        "list_date": "2023-05-19", "location": "Tokyo, Japan"}, {"company": "OnGraph
+        Technologies Limited", "company_url": "https://www.linkedin.com/company/ongraph",
+        "job_title": "ROR Developer", "job_url": "https://www.linkedin.com/jobs/view/ror-developer-at-ongraph-technologies-limited-3586105756",
+        "list_date": "2023-04-02", "location": "Delhi, Delhi, India"}, {"company":
+        "HireBoost", "company_url": "https://www.linkedin.com/company/hireboost",
+        "job_title": "(Costa Rica) Desarrollador Junior Ruby", "job_url": "https://www.linkedin.com/jobs/view/costa-rica-desarrollador-junior-ruby-at-hireboost-3609557234",
+        "list_date": "2023-05-06", "location": "San Jos\u00e9, San Jose, Costa Rica"},
+        {"company": "Amtex Systems Inc.", "company_url": "https://www.linkedin.com/company/amtex-systems-inc",
+        "job_title": "Software Engineer (ROR) / Ruby on Rails Developer- New York--
+        Hybrid Role", "job_url": "https://www.linkedin.com/jobs/view/software-engineer-ror-ruby-on-rails-developer-new-york-hybrid-role-at-amtex-systems-inc-3379543094",
+        "list_date": "2022-12-01", "location": "New York, NY"}, {"company": "Xprolabs",
+        "company_url": "https://www.linkedin.com/company/xprolabs", "job_title": "Senior
+        Ruby on Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/senior-ruby-on-rails-developer-at-xprolabs-3608397990",
+        "list_date": "2023-05-18", "location": "Lahore, Punjab, Pakistan"}, {"company":
+        "GR4", "company_url": "https://www.linkedin.com/company/gr4-recruitment",
+        "job_title": "Junior Ruby on Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/junior-ruby-on-rails-developer-at-gr4-3608409399",
+        "list_date": "2023-05-15", "location": "Berlin, Germany"}, {"company": "KCS
+        iT", "company_url": "https://www.linkedin.com/company/kcsit", "job_title":
+        "Ruby On Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-at-kcs-it-3602475765",
+        "list_date": "2023-05-09", "location": "Porto, Porto, Portugal"}, {"company":
+        "EKIMO", "company_url": "https://www.linkedin.com/company/ekimoapp", "job_title":
+        "Ruby On Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-at-ekimo-3607858100",
+        "list_date": "2023-05-17", "location": "Tbilisi, Georgia"}, {"company": "Zone
+        IT Solutions", "company_url": "https://www.linkedin.com/company/zoneitsolutions",
+        "job_title": "Ruby on Rails Developer", "job_url": "https://www.linkedin.com/jobs/view/ruby-on-rails-developer-at-zone-it-solutions-3579563065",
+        "list_date": "2023-03-31", "location": "Millers Point, New South Wales, Australia"},
+        {"company": "Porter", "company_url": "https://www.linkedin.com/company/theporter-in",
+        "job_title": "SDE II", "job_url": "https://www.linkedin.com/jobs/view/sde-ii-at-porter-3586107607",
+        "list_date": "2023-04-02", "location": "Bengaluru North, Karnataka, India"},
+        {"company": "Netvagas", "company_url": "https://www.linkedin.com/company/netvagas",
+        "job_title": "Pessoa desenvolvedora back end ruby junior time plataforma",
+        "job_url": "https://www.linkedin.com/jobs/view/pessoa-desenvolvedora-back-end-ruby-junior-time-plataforma-at-netvagas-3612679328",
+        "list_date": "2023-05-19", "location": "S\u00e3o Paulo, S\u00e3o Paulo, Brazil"},
+        {"company": "ITaACon s.r.o", "company_url": "https://www.linkedin.com/company/itaacon-s.r.o",
+        "job_title": "Graduate Software Developer", "job_url": "https://www.linkedin.com/jobs/view/graduate-software-developer-at-itaacon-s-r-o-3609141749",
+        "list_date": "2023-04-23", "location": "Bicester, England, United Kingdom"}],
+        "next_page_no": 1, "next_page_api_url": "https://nubela.co/proxycurl/api/v2/linkedin/company/job?pagination=eyJwYWdlIjogMSwgIm1ldGhvZCI6ICJmYWNlYm9vayJ9&keyword=ruby&geo_id=92000000&flexibility=anything&when=anytime",
+        "previous_page_no": null, "previous_page_api_url": null}'
+  recorded_at: Fri, 19 May 2023 19:42:20 GMT
+recorded_with: VCR 6.1.0
