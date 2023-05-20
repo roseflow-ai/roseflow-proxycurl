@@ -30,12 +30,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "activesupport"
+  spec.add_dependency "activesupport", "~> 6.0"
   spec.add_dependency "anyway_config", "~> 2.0"
-  spec.add_dependency "dry-struct"
-  spec.add_dependency "dry-transformer"
-  spec.add_dependency "faraday"
-  spec.add_dependency "faraday-retry"
+  spec.add_dependency "dry-struct", "~> 1.6"
+  spec.add_dependency "dry-transformer", "~> 1.0"
+  spec.add_dependency "dry-validation", "~> 1.10"
+  spec.add_dependency "faraday", "~> 2.0"
+  spec.add_dependency "faraday-retry", "~> 2.0"
 
   spec.add_development_dependency "awesome_print"
   spec.add_development_dependency "pry"
