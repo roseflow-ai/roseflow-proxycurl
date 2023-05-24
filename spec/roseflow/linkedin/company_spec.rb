@@ -29,7 +29,7 @@ module Roseflow
 
         it "returns a response with a valid URL" do
           VCR.use_cassette("linkedin/company/find", record: :new_episodes) do
-            object = described_class.new(proxycurl_connection).find(url)
+            object = described_class.new.find(url)
             expect(object).to be_a Company::Object
             expect(object.name).to eq("Finitec Oy")
           end
@@ -37,7 +37,7 @@ module Roseflow
 
         it "returns nil with a non-existing company URL" do
           VCR.use_cassette("linkedin/company/find-non-existing", record: :new_episodes) do
-            object = described_class.new(proxycurl_connection).find("https://www.linkedin.com/company/foobar/")
+            object = described_class.new.find("https://www.linkedin.com/company/foobar/")
             expect(object).to be_nil
           end
         end
@@ -49,27 +49,27 @@ module Roseflow
 
         it "returns a response with a valid domain" do
           VCR.use_cassette("linkedin/company/lookup/domain", record: :new_episodes) do
-            object = described_class.new(proxycurl_connection).lookup(domain: company_domain)
+            object = described_class.new.lookup(domain: company_domain)
             expect(object).to eq "https://www.linkedin.com/company/finitec-oy"
           end
         end
 
         it "returns a response with a valid name" do
           VCR.use_cassette("linkedin/company/lookup/name", record: :new_episodes) do
-            object = described_class.new(proxycurl_connection).lookup(name: "Finitec Oy")
+            object = described_class.new.lookup(name: "Finitec Oy")
             expect(object).to eq "https://www.linkedin.com/company/finitec-oy"
           end
         end
 
         it "returns nil with a non-existing domain" do
           VCR.use_cassette("linkedin/company/lookup/non-existing-domain", record: :new_episodes) do
-            expect(described_class.new(proxycurl_connection).lookup(domain: "nonexistingdomain.fi")).to be_nil
+            expect(described_class.new.lookup(domain: "nonexistingdomain.fi")).to be_nil
           end
         end
 
         it "returns nil with a non-existing name" do
           VCR.use_cassette("linkedin/company/lookup/non-existing-name", record: :new_episodes) do
-            expect(described_class.new(proxycurl_connection).lookup(name: "Tätä firmaa ei ole enää olemassa")).to be_nil
+            expect(described_class.new.lookup(name: "Tätä firmaa ei ole enää olemassa")).to be_nil
           end
         end
       end

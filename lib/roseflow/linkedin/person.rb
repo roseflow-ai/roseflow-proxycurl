@@ -7,27 +7,27 @@ require "roseflow/linkedin/person/role_query"
 module Roseflow
   module LinkedIn
     class Person
-      def initialize(connection)
-        @connection = connection
+      def initialize(client = Roseflow::Proxycurl::Client.new)
+        @client = client
       end
 
       def find(url, **options)
         query = ProfileQuery.new(url: url, **options)
-        response = @connection.get("v2/linkedin", query.to_h)
+        response = @client.find_person(query)
         return Person::Object.new(JSON.parse(response.body).merge(profile_url: url)) if person_found?(response)
         return nil if person_not_found?(response)
       end
 
       def lookup(query)
         query = LookupQuery.new(query)
-        response = @connection.get("linkedin/profile/resolve", query.to_request_params)
+        response = @client.lookup_person(query)
         return JSON.parse(response.body).dig("url") if person_found?(response)
         return nil if person_not_found?(response)
       end
 
       def role(query)
         query = RoleQuery.new(query)
-        response = @connection.get("find/company/role/", query.to_request_params)
+        response = @client.find_person_in_role(query)
         if person_found?(response)
           url = JSON.parse(response.body).dig("linkedin_profile_url")
           return find(url)

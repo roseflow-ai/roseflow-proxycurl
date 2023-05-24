@@ -6,20 +6,20 @@ require "roseflow/linkedin/company/lookup_query"
 module Roseflow
   module LinkedIn
     class Company
-      def initialize(connection)
-        @connection = connection
+      def initialize(client = Roseflow::Proxycurl::Client.new)
+        @client = client
       end
 
       def find(url, **options)
         query = ProfileQuery.new(url: url, **options)
-        response = @connection.get("linkedin/company", query.to_h)
+        response = @client.find_company(query)
         return Company::Object.new(JSON.parse(response.body).merge("profile_url" => url)) if company_found?(response)
         return nil if company_not_found?(response)
       end
 
       def lookup(query)
         query = LookupQuery.new(query)
-        response = @connection.get("linkedin/company/resolve", query.to_request_params)
+        response = @client.lookup_company(query)
         return JSON.parse(response.body).dig("url") if company_found?(response)
         return nil if company_not_found?(response)
       end
