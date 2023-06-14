@@ -40,7 +40,7 @@ module Roseflow
             optional(:company_profile_url).filled(:string)
             optional(:location)
             optional(:description)
-            optional(:started_on).filled(:date)
+            optional(:started_on)
             optional(:ended_on)
           end
 
@@ -55,7 +55,7 @@ module Roseflow
         attribute? :company_profile_url, Types::StringOrNil
         attribute? :location, Types::StringOrNil
         attribute? :description, Types::StringOrNil
-        attribute? :started_on, Types::Date
+        attribute? :started_on, Types::DateOrNil
         attribute? :ended_on, Types::DateOrNil
 
         contract_object ExperienceContract
