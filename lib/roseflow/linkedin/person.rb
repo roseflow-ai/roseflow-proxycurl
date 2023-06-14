@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "roseflow/linkedin/person/object"
 require "roseflow/linkedin/person/lookup_query"
 require "roseflow/linkedin/person/profile_query"
 require "roseflow/linkedin/person/role_query"
